@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:komatsu_clean/core/usecases/usecase.dart';
-import 'package:komatsu_clean/features/request_list/domain/entities/request_data.dart';
-import 'package:komatsu_clean/features/request_list/domain/repositories/request_repository.dart';
-import 'package:komatsu_clean/features/request_list/domain/usecases/get_request_list.dart';
+import 'package:komatsu_clean/features/domain/entities/request_data.dart';
+import 'package:komatsu_clean/features/domain/repositories/request_repository.dart';
+import 'package:komatsu_clean/features/domain/usecases/get_request_list.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 

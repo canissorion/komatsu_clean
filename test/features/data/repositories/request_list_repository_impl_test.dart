@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:komatsu_clean/core/platform/network_info.dart';
-import 'package:komatsu_clean/features/request_list/data/datasources/request_list_local_datasource.dart';
-import 'package:komatsu_clean/features/request_list/data/datasources/request_list_remote_datasource.dart';
-import 'package:komatsu_clean/features/request_list/data/models/request_list_model.dart';
-import 'package:komatsu_clean/features/request_list/data/repositories/request_list_repository.dart';
-import 'package:komatsu_clean/features/request_list/domain/entities/request_data.dart';
+import 'package:komatsu_clean/features/data/datasources/request_list_local_datasource.dart';
+import 'package:komatsu_clean/features/data/datasources/request_list_remote_datasource.dart';
+import 'package:komatsu_clean/features/data/models/request_list_model.dart';
+import 'package:komatsu_clean/features/data/repositories/request_list_repository.dart';
+import 'package:komatsu_clean/features/domain/entities/request_data.dart';
 import 'package:mockito/mockito.dart';
 
 class MockRemoteDataSource extends Mock implements RequestListRemoteDataSource {
