@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:komatsu_clean/features/request_list/data/models/request_list_model.dart';
+import 'package:komatsu_clean/features/data/models/request_list_model.dart';
 import 'package:komatsu_clean/features/domain/entities/request_data.dart';
 
 import '../../../fixtures/fixture_reader.dart';
