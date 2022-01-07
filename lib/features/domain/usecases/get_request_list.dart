@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:komatsu_clean/core/error/failures.dart';
-import 'package:komatsu_clean/core/usecases/usecase.dart';
-import 'package:komatsu_clean/features/domain/entities/request_data.dart';
-import 'package:komatsu_clean/features/domain/repositories/request_repository.dart';
+import '../../../core/error/failures.dart';
+import '../../../core/usecases/usecase.dart';
+import '../entities/request_data.dart';
+import '../repositories/request_repository.dart';
 
 class GetRequestList implements UseCase<RequestData, NoParams> {
   final RequestRepository repository;

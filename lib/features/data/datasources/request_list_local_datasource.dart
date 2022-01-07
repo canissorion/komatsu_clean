@@ -1,4 +1,4 @@
-import 'package:komatsu_clean/features/data/models/request_list_model.dart';
+import '../models/request_list_model.dart';
 
 abstract class RequestListLocalDataSource {
   /// Obtiene la data en cache del [RequestListModel] que guardo la ultima vez
@@ -7,7 +7,7 @@ abstract class RequestListLocalDataSource {
   /// Devuelve [NoLocalDataException] en caso de no tener data guardada.
   Future<RequestListModel>? getLastRequestList();
 
-// TODO: Implementar llamada a la db interna
+  // TODO: Implementar llamada a la db interna
   ///
   /// Devuelve un [LocalDataException] para los errores
   Future<void>? cacheRequestList(RequestListModel listToCache);

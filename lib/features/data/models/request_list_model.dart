@@ -1,4 +1,4 @@
-import 'package:komatsu_clean/features/domain/entities/request_data.dart';
+import '../../domain/entities/request_data.dart';
 
 class RequestListModel extends RequestData {
   const RequestListModel(
