@@ -1,10 +1,11 @@
-import '../../../core/platform/network_info.dart';
-import '../datasources/request_list_local_datasource.dart';
-import '../datasources/request_list_remote_datasource.dart';
-import '../../domain/entities/request_data.dart';
-import '../../../core/error/failures.dart';
 import 'package:dartz/dartz.dart';
-import '../../domain/repositories/request_repository.dart';
+
+import '../../../../core/error/failures.dart';
+import '../../../../core/platform/network_info.dart';
+import '../../../domain/entities/request/request_data.dart';
+import '../../../domain/repositories/request/request_repository.dart';
+import '../../datasources/request/request_list_local_datasource.dart';
+import '../../datasources/request/request_list_remote_datasource.dart';
 
 class RequestListRepositoryImpl implements RequestRepository {
   final RequestListRemoteDataSource remoteDataSource;

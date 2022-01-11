@@ -1,4 +1,4 @@
-import 'package:komatsu_clean/features/data/models/request_list_model.dart';
+import '../../models/request/request_list_model.dart';
 
 abstract class RequestListRemoteDataSource {
   /// TODO: Implementar llamada a la api

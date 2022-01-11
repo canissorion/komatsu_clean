@@ -1,4 +1,4 @@
-import '../models/request_list_model.dart';
+import '../../models/request/request_list_model.dart';
 
 abstract class RequestListLocalDataSource {
   /// Obtiene la data en cache del [RequestListModel] que guardo la ultima vez
